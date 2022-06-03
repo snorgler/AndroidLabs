@@ -10,16 +10,59 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello_message"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="@string/LabelText"
+        android:textSize="30sp"/>
 
-    <Button
-        android:id="@+id/button"
+    <LinearLayout
+        android:layout_weight="1"
+        android:gravity="fill"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_weight="1"
+            android:gravity="fill"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ButtonText" />
+
+        <CheckBox
+            android:layout_weight="1"
+            android:gravity="fill"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/CheckText" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:gravity="fill"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:layout_weight="1"
+            android:gravity="fill"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/flag" />
+
+        <Switch
+            android:layout_weight="1"
+            android:gravity="fill"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/SwitchText" />
+
+    </LinearLayout>
+
+    <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/ButtonText" />
+        android:hint="@string/EditTextText"
+        android:inputType="textPersonName" />
 
 </LinearLayout>
