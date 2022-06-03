@@ -13,7 +13,7 @@
         android:layout_height="167dp"
         android:gravity="center"
         android:text="Lab 2 GUI"
-        android:textSize="70sp"
+        android:textSize="75sp"
         tools:layout_editor_absoluteX="183dp"
         tools:layout_editor_absoluteY="134dp" />
 
